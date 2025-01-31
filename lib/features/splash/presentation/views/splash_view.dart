@@ -1,7 +1,7 @@
-import 'package:cinema_hub/features/splash/presentation/views/controller/bloc/splash_bloc.dart';
-import 'package:cinema_hub/features/splash/presentation/views/controller/bloc/splash_event.dart';
-import 'package:cinema_hub/features/splash/presentation/views/controller/bloc/splash_state.dart';
-import 'package:cinema_hub/features/splash/presentation/views/widgets/splash_view_body.dart';
+import 'package:cinema_hub/features/splash/presentation/controller/bloc/splash_bloc.dart';
+import 'package:cinema_hub/features/splash/presentation/controller/bloc/splash_event.dart';
+import 'package:cinema_hub/features/splash/presentation/controller/bloc/splash_state.dart';
+import 'package:cinema_hub/features/splash/presentation/widgets/splash_view_body.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:go_router/go_router.dart';

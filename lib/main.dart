@@ -1,9 +1,16 @@
-import 'package:cinema_hub/app_router.dart';
+import 'package:cinema_hub/core/utils/app_router.dart';
 import 'package:cinema_hub/constants.dart';
+import 'package:cinema_hub/core/utils/service_locator.dart';
+import 'package:cinema_hub/features/home/domain/entities/home_entity.dart';
 import 'package:flutter/material.dart';
+import 'package:hive_flutter/adapters.dart';
 
-void main() {
+void main() async {
   runApp(const CinemaHub());
+  setupLocator();
+  await Hive.initFlutter();
+  Hive.registerAdapter(HomeEntityAdapter());
+  await Hive.openBox(kFeaturedBox);
 }
 
 class CinemaHub extends StatelessWidget {

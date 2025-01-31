@@ -1,6 +1,5 @@
 import 'package:equatable/equatable.dart';
 
-// Events
 abstract class SplashEvent extends Equatable {
   const SplashEvent();
 

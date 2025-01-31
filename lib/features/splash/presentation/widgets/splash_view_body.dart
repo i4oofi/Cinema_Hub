@@ -1,7 +1,8 @@
-import 'package:cinema_hub/core/assets_data.dart';
-import 'package:cinema_hub/features/splash/presentation/views/controller/bloc/splash_bloc.dart';
-import 'package:cinema_hub/features/splash/presentation/views/controller/bloc/splash_event.dart';
-import 'package:cinema_hub/features/splash/presentation/views/controller/bloc/splash_state.dart';
+import 'package:cinema_hub/core/utils/assets_data.dart';
+import 'package:cinema_hub/features/splash/presentation/controller/bloc/splash_bloc.dart';
+import 'package:cinema_hub/features/splash/presentation/controller/bloc/splash_event.dart';
+import 'package:cinema_hub/features/splash/presentation/controller/bloc/splash_state.dart';
+
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_svg/flutter_svg.dart';

@@ -1,7 +1,7 @@
 // ignore: depend_on_referenced_packages
 import 'package:bloc/bloc.dart';
 import 'package:cinema_hub/constants.dart';
-import 'package:cinema_hub/features/splash/presentation/views/controller/bloc/splash_state.dart';
+import 'package:cinema_hub/features/splash/presentation/controller/bloc/splash_state.dart';
 
 import 'splash_event.dart';
 
